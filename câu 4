@@ -1,0 +1,26 @@
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ git branch -d  branch_4
+Deleted branch branch_4 (was 45ca277).
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ git branch -a
+  branch_1
+  branch_2
+  branch_3
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ git bash --lít
+git: 'bash' is not a git command. See 'git --help'.
+
+The most similar command is
+        stash
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
