@@ -1,1 +1,77 @@
 Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+---------------------Câu 3------------------
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ git branch  branch_1
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ git checkout  branch_1
+Switched to branch 'branch_1'
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_1)
+$ touch text_branch_1.txt
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit" > "text_branch_1.txt"
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_1)
+$ git checkout -b  branch_2
+Switched to a new branch 'branch_2'
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_2)
+$ touch  text_branch_2.txt
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales" > "text_branch_2.txt"
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_2)
+$ git checkout -b  branch_3
+Switched to a new branch 'branch_3'
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_3)
+$ touch  text_branch_3.txt
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat" > " text_branch_3.txt"
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_3)
+$ git checkout -b  branch_4
+Switched to a new branch 'branch_4'
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_4)
+$ touch text_branch_4.txt
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante" > "text_branch_4.txt"
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ git add .
+warning: in the working copy of ' text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ git commit -m  branch_1
+[main 6810dfe] branch_1
+ 4 files changed, 4 insertions(+)
+ create mode 100644  text_branch_3.txt
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_4.txt
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ git push origin
+Enumerating objects: 7, done.Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 621 bytes | 621.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/nguyentohoang/24174600139_Nguyen-To-Hoang_Bai-tap-Git.git
+   45ca277..6810dfe  main -> main
+------------------------------hết---------------------------------
