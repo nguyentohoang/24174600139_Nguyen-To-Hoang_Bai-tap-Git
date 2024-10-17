@@ -1,0 +1,16 @@
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ git pull
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 15 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (15/15), 6.53 KiB | 128.00 KiB/s, done.
+From https://github.com/nguyentohoang/24174600139_Nguyen-To-Hoang_Bai-tap-Git
+   6810dfe..c8a7f07  main       -> origin/main
+Updating 6810dfe..c8a7f07
+Fast-forward
+ README.md         | 44 ++++++++++++++++++++++++++++++++
+ "c\303\242u 4"    | 26 +++++++++++++++++++
+ text_branch_1.txt | 76 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 146 insertions(+)
+ create mode 100644 "c\303\242u 4"
