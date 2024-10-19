@@ -1,0 +1,53 @@
+---------------------------câu 7-------------------------------------
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ mkdir  main_folder
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git (main)
+$ cd  main_folder
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git/main_folder (main)
+$ touch main_txt_1.txt
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git/main_folder (main)
+$ touch main_txt_2.txt
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git/main_folder (main)
+$ touch main_txt_3.txt
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git/main_folder (main)
+$ git add  main_folder
+fatal: pathspec 'main_folder' did not match any files
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git/main_folder (main)
+$ ls
+main_txt_1.txt  main_txt_2.txt  main_txt_3.txt
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git/main_folder (main)
+$ git add .
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git/main_folder (main)
+$ git commit -m "main_folder"
+[main 43684da] main_folder
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git/main_folder (main)
+$ git pull origin main
+From https://github.com/nguyentohoang/24174600139_Nguyen-To-Hoang_Bai-tap-Git
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+tohoa@Admin MINGW64 /c/New folder/24174600139_Nguyen-To-Hoang_Bai-tap-Git/main_folder (main)
+$ git push origin
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (17/17), 1.57 KiB | 1.57 MiB/s, done.
+Total 17 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (6/6), completed with 1 local object.
+To https://github.com/nguyentohoang/24174600139_Nguyen-To-Hoang_Bai-tap-Git.git
+   a11a793..43684da  main -> main
+------------------------hết----------------------------
